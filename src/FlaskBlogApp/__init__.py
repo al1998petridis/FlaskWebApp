@@ -17,6 +17,8 @@ db = SQLAlchemy(app)
 
 migrate = Migrate(app, db)
 
+db.create_all()
+
 bcrypt = Bcrypt(app)
 
 login_manager = LoginManager(app)
