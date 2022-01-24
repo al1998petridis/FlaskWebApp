@@ -11,9 +11,9 @@ Web app using python's flask
 ### Open python
 ``` $ python ```
 ### Create database
-``` > from FlaskBlogApp import db ```
+``` >>> from FlaskBlogApp import db ```
 
-``` > db.create_all() ```
+``` >>> db.create_all() ```
 ## Start server 
 ### Start Server
 ``` $ python run.py ```
