@@ -2,33 +2,55 @@
 Web app using python's flask
 
 ## First clone current repository
-``` $ git clone https://github.com/al1998petridis/FlaskWebApp.git ```
+```
+git clone https://github.com/al1998petridis/FlaskWebApp.git 
+```
 
-Go to cloned directory with ``` $ cd FlaskWebApp/ ```
+Go to cloned directory with 
+```
+cd FlaskWebApp/
+```
 
 ## Create virtual enviroment using python virtualenv
-``` $ virtualenv flaskapp ```
+```
+virtualenv flaskapp
+```
 
 ## Open virual enviroment
-``` $ source flaskapp/bin/activate ```
+```
+source flaskapp/bin/activate
+```
 
 ## Install dependencies
-``` (flaskapp) $ pip install -r requirements.txt ```
+```
+pip install -r requirements.txt
+```
 
 ## Create database
 ### First go to /src folder
-``` (flaskapp) $ cd /src ```
+```
+cd /src
+```
 ### Open python
-``` (flaskapp) $ python ```
+```
+python
+```
 ### Create database
-``` (flaskapp) >>> from FlaskBlogApp import db ```
+```
+from FlaskBlogApp import db
+```
 
-``` (flaskapp) >>> db.create_all() ```
+```
+db.create_all()
+```
 
-``` (flaskapp) >>> exit() ```
+```exit()
+```
 
 ## Start server 
 ### Start Server
-``` (flaskapp) $ python run.py ```
+```
+python run.py
+```
 ## Enjoy from your browser
 Running on http://127.0.0.1:5000/
