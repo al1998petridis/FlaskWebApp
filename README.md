@@ -33,7 +33,7 @@ cd /src
 ```
 ### Open python
 ```
-python
+python3
 ```
 ### Create database
 ```
@@ -50,7 +50,7 @@ db.create_all()
 ## Start server 
 ### Start Server
 ```
-python run.py
+python3 run.py
 ```
 ## Enjoy from your browser
 Running on http://127.0.0.1:5000/
