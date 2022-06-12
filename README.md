@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Create database
 ### First go to /src folder
 ```
-cd /src
+cd src/
 ```
 ### Open python
 ```
@@ -44,7 +44,8 @@ from FlaskBlogApp import db
 db.create_all()
 ```
 
-```exit()
+```
+exit()
 ```
 
 ## Start server 
